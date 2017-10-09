@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>Taller de Lenguaje de Marcado</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index.css">
+    
+<!--Encabezado-->
+    
+
+    <!--Contenido-->    
+
+    <body>
+        
+    <div id="header">
+        <div id="correo">
+            
+            <label>
+                <a id="caja">Fecha:.....</a>
+            <input type="date" name="name" size="30" maxlength="50">
+                <a id="caja"><br/>Usuario:..</a>
+            <input type="email" name="name" size="30" maxlength="50"><i>@gmail.com</i>
+               <br/><a id="caja">Clave:.....</a>
+                <input type="password" size="30" maxlength="50">
+                <input type="submit" size="30" maxlength="50">
+            </label>
+                
+            </div>
+        <div id="size">
+        <div>
+            <h1><em><i><h3>MAVERICK ING.<br/>José Mauricio Garavito<br/>Ingeniero Topográfico<br>Especialista en Sistemas de Información Geografica</h3></i></em></h1>
+        </div>
+        </div>
+    </div>
+            
+        
+        <!--Barra Lateral-->
+        <div id="asideright">
+            <ol>
+                <form action="http://www.google.com/search" method="get">
+                    <input type="text" name="q">
+                    <button type="submit" value="Busqueda">Busqueda google.com</button>
+                    <h3>Aside Right</h3>
+                </form>
+                <br/>
+                <li><p>Revise Nuestra <a href="curriculum/hoja_de_vida.html" target="_blank"><b>Hoja de Vida</b></a></p></li>
+                <li><p>Consulte nuestros <a href="html/portafolio.html" target="_blank"><b>Proyectos</b></a></p></li>
+                <li><p>Revise Nuestros <a href="../imagen/html/imagenes.html" target="_blank"><b>MAPAS</b></a></p></li>
+                <li><a href="mapa_estatico/static_map.html" target="_blank"><b>MAPA ESTATICO</b></a></li>
+                <li><a href="xml/factura.xml" target="_blank"><b>xml Factura</b></a> </li>
+                <li><a href="xsd/factura.xsd" target="_blank"><b>xsd Factura</b></a> </li>
+                <li><a href="GML/aeropuerto/EjecicioGML.gml" target="_blank"><b>GML Aeropuerto</b></a> </li>
+                <li><a href="KML/aeropuerto/sitios.kml" target="_blank"><b>KML Aeropuerto</b></a> </li>
+                <li><a href="svg/sitios.svg" target="_blank"><b>SVG Ejercicio</b></a> </li>
+                <li><a href="web%2520service/GetMap_Cali.txt" target="_blank"><b>GetMap</b></a> </li>
+            </ol>
+            </div>
+        
+    <!--Sección-->
+        
+        <div id="asideleft">
+            <form action="mailto:Jmaverickg@gmail.com" enctype="text/plain" method="post">
+                    <input name="info" type="text"/>
+                    <button type="submit">Enviar Correo</button>
+                </form>
+        <h3 style="contenido">Aside Left</h3>
+        <p>
+            <iframe id="ventana1" src="mapa_estatico/static_map.html" width="300" height="300"></iframe>
+        </p>
+        </div>
+        
+        <div id="article">
+            <form class="navbar-search" action="../../../search.html" method="get">
+                <input type="text" name="nombre" class="search query" placeholder="COD"/>
+                <!-- <button type="submit">Código</button><br/> -->
+                <input type="password" name="nombre" class="search query" placeholder="CLAVE"/>
+                <input type="submit" name="nombre" class="search query" placeholder="CLAVE"/>
+                <!-- <button type="submit">Clave  </button> -->
+
+            </form>
+        <h2 style="contenido">
+            </h2>
+            <p><a><h4>Ubicación</h4></a>
+            <iframe id="ventana1" src="cluster/mapa_cluster.html" width="305" height="305"></iframe>
+        </p>
+        <p>
+        
+        </p>
+        </div>
+        
+        
+   
+        <!--Pie dePagina-->
+        <div id="footer">
+            <a>Dirección: Calle 63 No 113A-85</a><br/>
+            <a> Teléfono: 319292121</a><br/>
+            <a>Email: Jmaverickg@Gmail.com</a>
+            <article>
+            
+        
+        </article>
+        </div>
+        
+        <div id="correo">
+            <link rel="icon" href="../imagenes/correo.png">
+        </div>
+    </body>
+</html>
